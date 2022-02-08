@@ -5,7 +5,7 @@ pragma abicoder v2;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
-import "AccessProtected.sol";
+import "./AccessProtected.sol";
 
 contract ElfNFT is ERC721URIStorage, AccessProtected {
     using Counters for Counters.Counter;
